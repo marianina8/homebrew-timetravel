@@ -9,16 +9,16 @@ class Timetravel < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/marianina8/timetravel/releases/download/v1.0/timetravel_Darwin_x86_64.tar.gz"
-      sha256 "f3693966c6c67c5455b2ab1dd095c084ef6b8541e6a9de52e090a3f81c5d8ffb"
+      url "https://github.com/marianina8/timetravel/releases/download/1.0/timetravel_Darwin_x86_64.tar.gz"
+      sha256 "669e5fc8e9bfe61a0160a7b0be3529f197b8b79254937598429eea5a10c17fd9"
 
       def install
         bin.install "timetravel"
       end
     end
     on_arm do
-      url "https://github.com/marianina8/timetravel/releases/download/v1.0/timetravel_Darwin_arm64.tar.gz"
-      sha256 "e3d1f440fc3adb91bd8c5ad27e7104c9b2a75684d0f0fbba648a98250aa3bb7c"
+      url "https://github.com/marianina8/timetravel/releases/download/1.0/timetravel_Darwin_arm64.tar.gz"
+      sha256 "8ac70806155b88d5ef08a827c863afc8a8f9cf9b01094d810697bd6c1c0e7b68"
 
       def install
         bin.install "timetravel"
@@ -29,8 +29,8 @@ class Timetravel < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/marianina8/timetravel/releases/download/v1.0/timetravel_Linux_x86_64.tar.gz"
-        sha256 "3ed00311cb96a49d873f47139489e23392509a1ca55962fa0761a84af7b38cd5"
+        url "https://github.com/marianina8/timetravel/releases/download/1.0/timetravel_Linux_x86_64.tar.gz"
+        sha256 "9594d3e0ba558557f0edd78fa227b3d18d3030d8f0e112bbd16231cfaad877d5"
 
         def install
           bin.install "timetravel"
@@ -39,8 +39,8 @@ class Timetravel < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/marianina8/timetravel/releases/download/v1.0/timetravel_Linux_arm64.tar.gz"
-        sha256 "210bea14b087ae92fcc89446d8fb5c206fd2fd79804c060c865d99820d7625b1"
+        url "https://github.com/marianina8/timetravel/releases/download/1.0/timetravel_Linux_arm64.tar.gz"
+        sha256 "4112d58eb33da1e4f88114346f89de409357eeacaf44a7aaa3b1a24cafeb93f7"
 
         def install
           bin.install "timetravel"
