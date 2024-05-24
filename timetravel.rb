@@ -10,7 +10,7 @@ class Timetravel < Formula
   on_macos do
     on_intel do
       url "https://github.com/marianina8/timetravel/releases/download/1.0.0-beta/timetravel_Darwin_x86_64.tar.gz"
-      sha256 "d24351ac00f9643f812c0fd09c7ada22ef02ed46e74b336b3bee50bdf65d4976"
+      sha256 "8b899fce8864ce1f07f8f31bf8a6ff65a69eb047c261e32a0a5edddce62efac5"
 
       def install
         bin.install "timetravel"
@@ -18,7 +18,7 @@ class Timetravel < Formula
     end
     on_arm do
       url "https://github.com/marianina8/timetravel/releases/download/1.0.0-beta/timetravel_Darwin_arm64.tar.gz"
-      sha256 "50e7755ce4f60b045b3260d109a0cd98dc8d16f0abbac662aff98ab35399ce97"
+      sha256 "7dcf57210766ba9d972f7da32f6098a5f2199a03e34cff3708c7d32eb2998fdf"
 
       def install
         bin.install "timetravel"
@@ -30,7 +30,7 @@ class Timetravel < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/marianina8/timetravel/releases/download/1.0.0-beta/timetravel_Linux_x86_64.tar.gz"
-        sha256 "c824eecd5e8c73fa1e0e60d689a24a3672acdb6f0f88534146b7b289fe2821e5"
+        sha256 "68e095140f68e1e5dd53ef6574d7b206b3b18f3b9e651d1f969c8bb3d4d2c614"
 
         def install
           bin.install "timetravel"
@@ -40,7 +40,7 @@ class Timetravel < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/marianina8/timetravel/releases/download/1.0.0-beta/timetravel_Linux_arm64.tar.gz"
-        sha256 "7e76fb0264661d811e8979cecd93f70ae179808145890110040f14fa81be47ed"
+        sha256 "da3db228654706cd3b0c8d852bb1c93f5cfdd34454f87603888520da173955cf"
 
         def install
           bin.install "timetravel"
