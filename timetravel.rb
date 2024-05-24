@@ -5,20 +5,20 @@
 class Timetravel < Formula
   desc ""
   homepage "https://github.com/marianina8"
-  version "1.0.1-beta"
+  version "1.0.2-beta"
 
   on_macos do
     on_intel do
-      url "https://github.com/marianina8/timetravel/releases/download/1.0.1-beta/timetravel_Darwin_x86_64.tar.gz"
-      sha256 "e231b278c463b20c20a9032016631eaff2add0a55a42b13fbddd9164a6ce2d7f"
+      url "https://github.com/marianina8/timetravel/releases/download/1.0.2-beta/timetravel_Darwin_x86_64.tar.gz"
+      sha256 "172df6a5a2d198e2cad4f9813ed10baee99bb936264cebfa7eee11640467c651"
 
       def install
         bin.install "timetravel"
       end
     end
     on_arm do
-      url "https://github.com/marianina8/timetravel/releases/download/1.0.1-beta/timetravel_Darwin_arm64.tar.gz"
-      sha256 "45ab5948d4ccab96eec150b4c44ddfb1c0373cf31f67ef095ff916d82ddb0ca7"
+      url "https://github.com/marianina8/timetravel/releases/download/1.0.2-beta/timetravel_Darwin_arm64.tar.gz"
+      sha256 "ec27ece92f12f03d947b32d5dc01be16d6373b0e50e105b8ed9f7d8f3e45680d"
 
       def install
         bin.install "timetravel"
@@ -29,8 +29,8 @@ class Timetravel < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/marianina8/timetravel/releases/download/1.0.1-beta/timetravel_Linux_x86_64.tar.gz"
-        sha256 "574e31e851efc08ebd78e2153b386e6f7f4c91b3264e3451011a4380c709aca8"
+        url "https://github.com/marianina8/timetravel/releases/download/1.0.2-beta/timetravel_Linux_x86_64.tar.gz"
+        sha256 "4d83873101bb08868e3202ae399a2e9ec452b8b381929d37d9271d28dae019b1"
 
         def install
           bin.install "timetravel"
@@ -39,8 +39,8 @@ class Timetravel < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/marianina8/timetravel/releases/download/1.0.1-beta/timetravel_Linux_arm64.tar.gz"
-        sha256 "1cb7ce4a09227bbdf4fb239e8bac425c98ef78cca81c7ba5539b8a3f12293500"
+        url "https://github.com/marianina8/timetravel/releases/download/1.0.2-beta/timetravel_Linux_arm64.tar.gz"
+        sha256 "87c2ab0b52c32cac2fc8d17d1ce97968dc60a9fb0d217a2974622586cc4f298a"
 
         def install
           bin.install "timetravel"
